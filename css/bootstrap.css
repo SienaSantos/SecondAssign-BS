@@ -15,3 +15,36 @@ body {
 footer,header,nav{
   display: block;
 }
+a {
+  background: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+h1 {
+  margin: .67em 0;
+  font-size: 2em;
+}
+button,input {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+img {
+  max-width: 100% !important;
+}
