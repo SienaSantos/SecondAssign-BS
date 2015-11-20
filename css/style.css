@@ -455,7 +455,8 @@ i.google:hover{
 .social-ic {
   margin-top: 1.5em;
 }
-/*sliderrrrr*/
+
+/*sliderrrrr css*/
 
 #slider {
   position: relative;
@@ -485,7 +486,6 @@ i.google:hover{
   text-align: center;
   line-height: 300px;
 }
-
 a.control_prev, a.control_next {
   position: absolute;
   top: 40%;
@@ -502,7 +502,6 @@ a.control_prev, a.control_next {
   opacity: 0.8;
   cursor: pointer;
 }
-
 a.control_prev:hover, a.control_next:hover {
   opacity: 1;
   -webkit-transition: all 0.2s ease;
